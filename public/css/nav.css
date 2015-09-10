@@ -1,0 +1,11 @@
+.main{
+    padding: 40px 10px;
+}
+.section{
+    height: 100px;
+}
+.section a{
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: "Microsoft YaHei";
+}
