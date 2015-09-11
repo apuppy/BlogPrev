@@ -1,0 +1,18 @@
+#search{
+    margin: 20px 0;
+    height: auto;
+    text-align: center;
+}
+#q{
+    width: 500px;
+    height: 40px;
+}
+#search_btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #00be3c;
+}
