@@ -1,0 +1,8 @@
+#form_signin{
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 350px;
+}
+#form_signin h2{
+    text-align: center;
+}
