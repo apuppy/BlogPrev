@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="public/d.ico"/>
     <link rel="stylesheet" href="public/css/bootstrap.css">
     <link rel="stylesheet" href="public/css/blog.css">
     <script src="public/js/jquery.js"></script>
