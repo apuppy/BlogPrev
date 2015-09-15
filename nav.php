@@ -48,6 +48,7 @@
         <a target="_blank" href="https://dribbble.com">Dribbble</a>
         <a target="_blank" href="http://www.mlito.com">米元素</a>
         <a target="_blank" href="http://www.uimaker.com">UI Maker</a>
+        <a target="_blank" href="http://yixi.tv">一席</a>
     </div>
 
     <!--优秀博客-->

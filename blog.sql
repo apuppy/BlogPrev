@@ -1,0 +1,14 @@
+-- 创建导航网址分类表
+CREATE TABLE websites_category(
+  id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT "自增ID",
+  name CHAR(16) NOT NULL COMMENT '分类名称',
+  logo VARCHAR(32) DEFAULT '' COMMENT '分类图标',
+  is_delete TINYINT(1) UNSIGNED NULL DEFAULT '0' COMMENT '是否删除，0未删除，1删除，默认0'
+);
+-- 创建导航网址表
+CREATE TABLE websites(
+  id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT "自增ID",
+  name CHAR(16) NOT NULL COMMENT '网站名称',
+  url VARCHAR(64) NOT NULL COMMENT '网站链接',
+  is_delete TINYINT(1) UNSIGNED NULL DEFAULT '0' COMMENT '是否删除，0未删除，1删除，默认0'
+);
