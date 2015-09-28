@@ -1,5 +1,5 @@
 <?php require_once('header.php'); ?>
-<link rel="stylesheet" href="public/css/nav.css">
+<link rel="stylesheet" href="<?php echo(__CSS__); ?>nav.css">
 <div class="main">
     <!--前端-->
     <div class="section">

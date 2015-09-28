@@ -1,5 +1,5 @@
 <?php require_once('header.php'); ?>
-<link rel="stylesheet" href="public/css/download.css">
+<link rel="stylesheet" href="<?php echo(__CSS__); ?>download.css">
 <div class="main">
     <div class="section">
     <a target="_blank" href="https://www.jetbrains.com/phpstorm">PhpStorm</a>
