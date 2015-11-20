@@ -3,6 +3,7 @@
 <div class="main">
     <!--前端-->
     <div class="section">
+        <a target="_blank" href="http://www.w3cfuns.com/tools.php?mod=bookjquery">W3Cfuns JQuery参考手册</a>
         <a target="_blank" href="http://www.jquery123.com">JQuery中文</a>
         <a target="_blank" href="https://jquery.org">JQuery英文</a>
         <a target="_blank" href="http://www.bootcss.com">Bootstrap</a>
