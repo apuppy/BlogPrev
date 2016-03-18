@@ -1,0 +1,11 @@
+查看帮助：
+mysql --verbose --help
+导出：
+mysqldump -h host -u user -p dbname > sqlfile
+mysqldump -hhost -uuser -ppassword dbname > sqlfile
+例：mysql -h localhost -u root -p blog > ~/blog.sql
+导入：
+mysql -h host -u root -p dbname < sqlfile
+mysql -hhsot -uusername -ppassword dbname < sqlfile
+例：mysql -h localhost -u root -p dev_blog < blog.sql
+对于测试数据有误时,调用mysql工具时加-f选项可以忽略错误
