@@ -9,3 +9,5 @@ mysql -h host -u root -p dbname < sqlfile
 mysql -hhsot -uusername -ppassword dbname < sqlfile
 例：mysql -h localhost -u root -p dev_blog < blog.sql
 对于测试数据有误时,调用mysql工具时加-f选项可以忽略错误
+只导部分表并且不导表里的数据
+mysqldump -u user -p --databases dbname --tables tbname_foo tbname_bar > xxx.sql
