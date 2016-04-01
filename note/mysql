@@ -11,3 +11,7 @@ mysql -hhsot -uusername -ppassword dbname < sqlfile
 对于测试数据有误时,调用mysql工具时加-f选项可以忽略错误
 只导部分表并且不导表里的数据
 mysqldump -u user -p --databases dbname --tables tbname_foo tbname_bar > xxx.sql
+
+/******/
+将查出的数据插入：select for insert
+insert into foo(column1,column2) select 2,column2 from foo;
