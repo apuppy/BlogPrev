@@ -1,0 +1,6 @@
+xxx.run的安装
+	chmod +x xxx.run
+	./xxx.run	
+xxx.run的卸载
+	1.sh xxx.run --uninstall
+	2.locate xxx | grep unistall;到相应目录下执行./unistall

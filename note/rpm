@@ -1,0 +1,8 @@
+安装
+	rpm -ivh package.rpm
+卸载
+	rpm -e package.rpm
+查询文件所属软件
+	rpm -qf xxx.conf
+查询软件安装的文件位置
+	rpm -ql package-name
