@@ -6,3 +6,5 @@
 	rpm -qf xxx.conf
 查询软件安装的文件位置
 	rpm -ql package-name
+卸载时不卸载依赖
+	rpm -e --nodeps package-name
